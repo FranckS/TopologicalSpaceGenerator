@@ -231,3 +231,6 @@ generateAllReflRelation = aux Ca Ca (\x,y => if myData_eq x y then TrueBE else U
 	aux So So r = r :: Nil -- Only TrueBE for (So,So)
 
 
+
+res : List relation
+res = generateAllReflRelation
